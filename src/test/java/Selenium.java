@@ -12,6 +12,8 @@ public class Selenium {
 		driver.manage().window().maximize();
 		 driver.findElement(By.id("email")).sendKeys("Vikas@123");
 		driver.findElement(By.id("pass")).sendKeys("123");
+		 driver.findElement(By.id("email")).sendKeys("Vikas@123");
+			driver.findElement(By.id("pass")).sendKeys("123");
 	}
 
 }
